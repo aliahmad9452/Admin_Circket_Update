@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".UpdateScoresActivity">
+
+    <!-- Score and Overs for Team A -->
+    <EditText
+        android:id="@+id/editTextScoreTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Score Team A"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextOversTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Overs Team A"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonUpdateScoreTeamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Score Team A"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonUpdateOversTeamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Overs Team A"
+        android:layout_marginTop="16dp" />
+
+    <!-- Score and Overs for Team B -->
+    <EditText
+        android:id="@+id/editTextScoreTeamB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Score Team B"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextOversTeamB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Overs Team B"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonUpdateScoreTeamB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Score Team B"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonUpdateOversTeamB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Overs Team B"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

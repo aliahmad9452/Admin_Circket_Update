@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- EditText for Status of the Match -->
+    <EditText
+        android:id="@+id/editTextStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status of the Match"
+        android:layout_marginBottom="16dp" />
+
+    <!-- EditText for Match Type -->
+    <EditText
+        android:id="@+id/editTextMatchType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Match Type"
+        android:layout_below="@+id/editTextStatus"
+        android:layout_marginBottom="16dp" />
+
+    <!-- EditText for Current Situation -->
+    <EditText
+        android:id="@+id/editTextCurrentSituation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current Situation"
+        android:layout_below="@+id/editTextMatchType"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to Update Data -->
+    <Button
+        android:id="@+id/buttonUpdateData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Data"
+        android:layout_below="@+id/editTextCurrentSituation" />
+
+</RelativeLayout>

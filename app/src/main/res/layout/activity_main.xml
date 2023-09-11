@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/admin_dashboard_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_set_team_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Team Image"
+        android:textSize="18sp"
+        android:layout_below="@id/admin_dashboard_title"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/button_update_scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Scores"
+        android:textSize="18sp"
+        android:layout_below="@id/button_set_team_image"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_update_Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_update_scores"
+        android:layout_marginTop="16dp"
+        android:text="Update Match Status"
+        android:textSize="18sp" />
+
+</RelativeLayout>

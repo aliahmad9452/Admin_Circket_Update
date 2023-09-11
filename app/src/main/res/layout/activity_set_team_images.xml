@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".SetTeamImagesActivity">
+
+
+
+    <!-- Button to Set Team A Image -->
+    <Button
+        android:id="@+id/buttonSetTeamAImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Set Team A Image" />
+    <EditText
+        android:id="@+id/editTextCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country Name A"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button to Set Team B Image -->
+    <Button
+        android:id="@+id/buttonSetTeamBImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Set Team B Image" />
+    <EditText
+        android:id="@+id/editTextCountryName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country Name B"
+        android:layout_marginTop="16dp" />
+
+    <Button
+
+        android:id="@+id/buttonUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Update Data" />
+
+</LinearLayout>
